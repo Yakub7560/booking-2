@@ -1,0 +1,67 @@
+// 1200
+@media (max-width:1200px){
+
+}
+// 1024
+@media (max-width:1024px){
+   .section-rooms{
+      margin: 0 10px;
+   }
+   .room__slider{
+         >div{
+         margin-left: -10px;
+      }
+      img{
+      width: 100%;
+      margin-left: -10px;
+      
+      }
+   }
+   .room__slider{
+      position: relative;
+      div{
+         margin: 7px;
+      }}
+}
+
+
+
+// 768
+@media (max-width:768px){
+   .section-rooms{
+      margin: 0 10px;
+      }
+      .room__slider{
+         >div{
+            margin-left: -30px;
+
+         }
+         img{
+         width: 100%;
+         height: 100%;
+         }
+      }
+      .room__slider{
+         position: relative;
+         div{
+            margin: 5px;
+         }}
+}
+
+
+// 576
+@media (max-width:576px){
+ 
+   .section-rooms{
+   margin: 0 10px;
+   }
+   .room__slider{
+      >div{
+         margin-left: 0px;
+      }
+      img{
+      width: 100%;
+      height: 100%;
+      }
+   }
+}

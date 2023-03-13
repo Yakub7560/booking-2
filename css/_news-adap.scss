@@ -1,0 +1,108 @@
+// 1200
+@media (max-width:1200px){
+   .news{
+      .news__header{
+      }
+      .news__slider{
+         .news-slider__item{
+            .news-item__img{
+               .news-item__info{
+                  .news-item__title{
+                  }
+                  .news-item__date{
+                  }
+               }
+               .news-item__moreinfo{
+                  .news-moreinfo__header{
+                     .moreinfo__header-title{
+                     
+                     }
+                     .moreinfo__header-date{
+                     
+                     }
+                  }
+                  .news-moreinfo__body{
+                  }
+            .news-moreinfo__button{
+            }
+               }
+            }
+         }
+         .news-slider__item:hover .news-item__moreinfo{
+         }
+      }
+   }
+}
+// 1024
+@media (max-width:1024px){
+   .news{
+      .news__header{
+      }
+      .news__slider{
+         .news-slider__item{
+            .news-item__img{
+               .news-item__info{
+                  .news-item__title{
+                     font-size: 28px;
+                  }
+                  .news-item__date{
+                     margin-top: 10px;
+                     font-size: 14px;
+                  }
+               }
+               .news-item__moreinfo{
+                  .news-moreinfo__header{
+                     .moreinfo__header-title{
+                     
+                     }
+                     .moreinfo__header-date{
+                     
+                     }
+                  }
+                  .news-moreinfo__body{
+                  }
+            .news-moreinfo__button{
+            }
+               }
+            }
+         }
+
+      }
+   }
+}
+
+
+
+// 768
+@media (max-width:768px){
+   .news{
+
+      .news__slider{
+         .news-slider__item{
+            .news-item__img{
+               .news-item__info{
+                  .news-item__title{
+                     font-size: 28px;
+                  }
+                  .news-item__date{
+                     margin-top: 10px;
+                     font-size: 14px;
+                  }
+               }
+
+            }
+         }
+      }
+   }
+}
+
+
+// 576
+@media (max-width:576px){
+.news{
+   .news__header{
+      font-size: 42px;
+   }
+}
+
+}

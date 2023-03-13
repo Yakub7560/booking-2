@@ -1,0 +1,212 @@
+// 1200
+@media (max-width:1200px){
+   .footer{
+      margin: 0 5px;
+      .footer__info{
+         padding: 30px 100px;
+         >div{
+            margin: 10px;
+         }
+         // airbooking
+         .footer__airbooking{
+            max-width: 400px;
+         }
+         
+         .footer__links{
+
+
+            .link__part{
+
+            
+               .part__right{
+                  margin: 0 0 0 10px;
+               }
+            }
+         }
+
+         .connect__list{
+            .connect-list__icon{
+               img{
+                  margin: 5px;
+               }
+            }
+         }
+      }
+   }
+}
+// 1024
+@media (max-width:1024px){
+   .footer{
+      .footer__info{
+         padding: 20px 50px;
+         >div{
+            margin: 10px;
+         }
+         // airbooking
+         .footer__airbooking{
+            max-width: 400px;
+         }
+
+         }}
+         .footer__links{
+            .link__part{
+               .part__right{
+                  margin: 0 0 0 10px;
+               }
+            }
+         }
+         .connect__list{
+            .connect-list__icon{
+               margin: 0 0 0 5px;
+            }
+         }
+      }
+
+
+
+
+// 768
+@media (max-width:768px){
+   .footer{
+      .footer__info{
+         padding: 20px 50px;
+         >div{
+            margin: 10px;
+         }
+         // airbooking
+         .footer__airbooking{
+            max-width: 400px;
+         }
+         .footer__links{
+            .link__part{
+               .part__right{
+                  margin: 0 0 0 10px;
+               }
+            }
+         }
+         .connect__list{
+            .connect-list__icon{
+               margin: 0 0 0 5px;
+            }
+         }
+      }
+   }
+}
+
+
+// 576
+@media (max-width:576px){
+   .footer{
+      .footer__info{
+         padding: 20px 50px;
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         >div{
+            margin: 10px;
+            margin: 0 auto;
+         }
+
+         // airbooking
+         .footer__airbooking{
+            max-width: 400px;
+         // airbooking txt
+         .airbooking__txt{
+            font-size: 24px;
+         }
+         .airbooking__body{
+            display: flex;
+            justify-content: space-between;
+         .airbooking__tel{
+            margin-top: 0;
+         }
+         }}
+         
+         .footer__links{
+            .link__header{
+               font-size: 34px;
+            }
+         width: 100%;
+            .link__part{
+               display: flex;
+               justify-content: space-around;
+               font-size: 18px;
+               .part__right{
+                  margin: 0 0 0 10px;
+               }
+            }
+         }
+         .connect__header{
+            font-size: 34px;
+         }
+         .connect__list{
+            margin: 30px 0;
+            .connect-list__icon{
+               margin: 0 0 0 5px;
+            }
+         }
+      }
+   }
+}
+
+
+// 480
+
+
+@media (max-width:480px){
+   .footer{
+   
+      .footer__info{
+         padding: 0px 50px;
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         >div{
+            margin: 10px;
+            margin: 0 auto;
+         }
+
+         // airbooking
+         .footer__airbooking{
+            max-width: 400px;
+         // airbooking txt
+         .airbooking__txt{
+            font-size: 28px;
+            margin: 0 0 20px 0;
+         }
+         .airbooking__body{
+    
+         .airbooking__tel{
+            margin-top: 0;
+         }
+         }}
+         
+         .footer__links{
+            .link__header{
+               font-size: 44px;
+            }
+            width: 100%;
+            .link__part{
+               display: flex;
+               justify-content: space-around;
+               font-size: 18px;
+               .part__right{
+                  margin: 0 0 0 10px;
+               }
+            }
+         }
+         .connect__header{
+            font-size: 34px;
+         }
+         .connect__list{
+            margin: 30px 0;
+            .connect-list__icon{
+               margin: 0 0 0 5px;
+            }
+         }
+      }
+      .footer__under{
+         margin: 50px 0 10px 0;
+      }
+   }
+}

@@ -1,0 +1,79 @@
+// 1200
+@media (max-width:1200px){
+   .services{
+      .services__title{
+         font-size: 80px;
+      
+      }
+      .service-item__list{
+      .services__item{
+         // .service-item__icon{
+   
+         // }
+         .service-item__name{
+            font-size: 50px;
+         }
+         .service-item__text{
+            font-size: 30px;
+         }
+   
+      }
+   }
+   }
+}
+// 1024
+@media (max-width:1024px){
+   .services{
+      .services__title{
+         font-size: 80px;
+      }
+      .service-item__list{
+      .services__item{
+         // .service-item__icon{
+         // }
+         .service-item__name{
+            font-size: 40px;
+         }
+         .service-item__text{
+            font-size: 30px;
+         }
+      }
+   }
+   }
+}
+
+
+
+// 768
+@media (max-width:768px){
+   
+}
+
+
+// 576
+@media (max-width:576px){
+   
+   .services{
+      .services__title{
+         font-size: 54px;
+      }
+      .service-item__list{
+         display: flex;
+         flex-direction: column;
+         margin-top: 10px;
+      .services__item{
+         margin-top: 20px;
+         // .service-item__icon{
+   
+         // }
+         // .service-item__name{
+         // }
+         .service-item__text{
+            font-size: 30px;
+            font-weight: 500;
+         }
+   
+      }
+   }
+   }
+}

@@ -1,0 +1,80 @@
+.news{
+   margin: 50px 0;
+   .news__header{
+      font-size: 72px;
+      text-align: center;
+      margin: 50px 0;
+      color: #686868;
+   }
+   .news__slider{
+      padding: 0 100px;
+      display: flex;
+      .news-slider__item{
+      overflow: hidden;
+
+         .news-item__img{
+            position: relative;
+            overflow: hidden;
+            margin: 10px;
+         
+            img{
+               overflow: hidden;
+            }
+            .news-item__info{
+               position: absolute;
+               bottom: 20px;
+               left: 15px;
+               color: #ffffff;
+               
+               .news-item__title{
+                  font-size: 34px;
+               }
+               .news-item__date{
+                  font-size: 24px;
+
+               }
+            }
+            .news-item__moreinfo{
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+               padding: 15px;
+               position: absolute;
+               left: 0;
+               top: 100%;
+               background-color: #ffffff;
+               height: 100%;
+               transition:  .5s all;
+               .news-moreinfo__header{
+                  
+                  .moreinfo__header-title{
+                     font-size: 30px;
+                     color: #686868;
+                  }
+                  .moreinfo__header-date{
+                     font-size: 20px;
+                     color: #686868;
+                     margin-top: 10px;
+                  }
+               }
+               .news-moreinfo__body{
+                  font-size: 20px;
+                  color: #686868;
+               }
+         .news-moreinfo__button{
+            max-width: 120px;
+            color: #ffffff;
+            padding: 10px 15px;
+            background-color: #0e6fb3;
+            font-size: 20px;
+         }
+            }
+         }
+         
+
+      }
+      .news-slider__item:hover .news-item__moreinfo{
+         top: 0;
+      }
+   }
+}

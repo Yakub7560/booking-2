@@ -1,0 +1,128 @@
+// 1200
+@media (max-width:1200px){
+   .enjoy-vacation{
+      margin: 0 5px;
+      .img__info{
+         position: absolute;
+         top: 200px;
+         left: 380px;
+         text-align: center;
+         
+         .vacation__text{
+            color: #ffffff;
+            font-size: 52px;
+            text-align: center;
+   
+            
+         }
+         .vacation__icon{
+      
+            margin-top: 50px;
+            text-align: center;
+         }
+      }
+   }
+}
+// 1024
+@media (max-width:1024px){
+   .enjoy-vacation{
+      .img__info{
+         position: absolute;
+         top: 200px;
+         left: 300px;
+         text-align: center;
+         
+         .vacation__text{
+            color: #ffffff;
+            font-size: 52px;
+            text-align: center;
+   
+            
+         }
+         .vacation__icon{
+      
+            margin-top: 50px;
+            text-align: center;
+         }
+      }
+   }
+}
+
+
+
+// 768
+@media (max-width:768px){
+   .enjoy-vacation{
+      .img__info{
+         position: absolute;
+         top: 200px;
+         left: 165px;
+         text-align: center;
+         
+         .vacation__text{
+            color: #ffffff;
+            font-size: 52px;
+            text-align: center;
+   
+            
+         }
+         .vacation__icon{
+      
+            margin-top: 50px;
+            text-align: center;
+         }
+      }
+   }
+}
+
+
+// 576
+@media (max-width:576px){
+   .enjoy-vacation{
+   .img__info{
+      position: absolute;
+      top: 200px;
+      left: 70px;
+      text-align: center;
+      
+      .vacation__text{
+         color: #ffffff;
+         font-size: 52px;
+         text-align: center;
+
+         
+      }
+      .vacation__icon{
+   
+         margin-top: 50px;
+         text-align: center;
+      }
+   }
+}
+}
+
+
+// 480
+@media (max-width:480px){
+   .enjoy-vacation{
+   .img__info{
+      position: absolute;
+      top: 200px;
+      left: 18px;
+      text-align: center;
+      
+      .vacation__text{
+         color: #ffffff;
+         font-size: 52px;
+         text-align: center;
+
+         
+      }
+      .vacation__icon{
+   
+         margin-top: 50px;
+         text-align: center;
+      }
+   }
+}
+}

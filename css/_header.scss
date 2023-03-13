@@ -1,0 +1,183 @@
+@import '_fonts.scss';
+
+.header{
+   display: flex;
+   position: relative;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: 96px;
+   padding: 0 33px 0 50px;
+   min-width: 400px;
+   
+   .header__item:nth-child(2){
+      font-size: 48px;
+      font-family: "Bodoni SvtyTwo SC ITC TT Book";
+      color: #c19b76;
+   }
+   
+   .header__item:nth-child(1) .menu__btn{
+      position: fixed;
+
+   }
+
+
+#go{
+   opacity: 0;
+}
+#go:checked ~ .menu__btn > span{
+transform: translateX(280px);
+
+
+
+}
+#go:checked ~ .menu__btn >span::after,
+#go:checked ~ .menu__btn >span,
+#go:checked ~ .menu__btn >span::before{
+   background-color: white;
+
+
+}
+
+
+
+#go:checked ~ .menu__box{
+   visibility: visible;
+   left: 0;
+}
+.menu__btn{
+   display: flex;
+   align-items: center;
+   position: relative;
+   top: 40px;
+   left: 20px;
+   width: 26px;
+   height: 26px;
+   cursor: pointer;
+   z-index: 100;
+}
+.menu__btn span{
+   position: sticky;
+   top: 0px;
+   left: 35px;
+
+   
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn  > span::after{
+   display: block;
+   position: relative;
+   width: 35px;
+   height: 5px;
+   border-radius: 50px;
+   background-color: #000000;
+   transition-duration: 0.5s;
+}
+.menu__btn >span::before{
+   content: '';
+   top: -10px;
+   
+}
+
+.menu__btn > span::after{
+   content: '';
+   top: 5px;
+}
+.menu__box{
+   display: block;
+   position: fixed;
+   visibility: hidden;
+   top: 0;
+   left: -100%;
+   width: 400px;
+   height: 100%;
+   margin: 0;
+   padding: 80px 0;
+   list-style: none;
+   background-color: #000000;
+   transition-duration: 0.5s;
+   z-index: 50;
+
+   .social__icons{
+   padding: 50px 50px 0;
+   display: flex;
+   justify-content: space-between;
+ 
+   }
+   }
+}
+.menu__item{
+   display: block;
+   padding: 12px 24px;
+   color: #ffffff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   font-weight: 500;
+   text-decoration: none;
+   transition-duration: 0.5s;
+   text-align: center;
+   
+}
+
+.header__item:nth-child(2){
+   min-width: 200px;
+}
+
+// search space
+.header__item:nth-child(3)
+{
+   display: flex;
+   position: relative;
+   top: 10px;
+   .search__chbox{
+      display: none;
+   }
+   .search__input{
+      border-radius: 8px;
+      height: 25px;
+      transition: all 1s;
+   }
+   #s__input{
+   display: none;
+   position: absolute;
+   width: 200px;
+   right: 40px;
+   top: 0px;
+   opacity: .5;
+   padding: 0 0 0 5px;
+   transform-origin: 100% 50%;
+   transform: scaleX(0);
+   outline: none;
+
+   }
+   #search__checkbox:checked ~ #s__input{
+   display: block;
+   transform: scaleX(1);
+}
+}
+
+
+
+.icons{
+   color: rgb(170, 168, 168);
+   padding: 5px;
+   font-family: 'icomoon';
+   font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

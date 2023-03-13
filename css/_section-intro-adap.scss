@@ -1,0 +1,275 @@
+// 1200
+@media (max-width:1200px){
+// intro adaptive start
+.intro__img{
+   .intro__info{
+      margin-top: 80px;
+      
+      .info__button{
+         padding: 20px 30px;
+         font-size: 15px;
+      }
+      .info__calendar{
+         .calendar__date{
+            .date__chin{
+               .chin__date{
+                  font-size: 60px;
+               }
+            }
+            .date__chout{
+               .chout__date{
+                  font-size: 60px;
+               }
+            }
+            .date__guestnum{
+               .guestnum__number{
+                  font-size: 60px;
+               }
+            }
+            .calendar__button{
+               padding: 0 10px;
+            }
+         }
+      }
+   }
+}
+}
+// 1024
+@media (max-width:1024px){
+   
+   // intro adaptive start
+   .section__intro{
+      
+      .intro__social{
+         display: none;
+         >div{
+            margin: 40px 60px;
+
+         }
+      }
+      .intro__img{
+         .intro__info{
+            margin-top: 80px;
+            .info__button{
+               margin-top: 70px;
+            }
+         .info__calendar{
+            margin-top: 70px;
+            .calendar__date{
+               .date__chin, .date__chout, .date__guestnum{
+                  padding: 30px 50px;
+               }
+               .calendar__button{
+                  padding: 0 10px;
+               }
+            }
+         }
+      }
+      }
+   }
+// end of intro adaptive
+
+}
+
+
+
+// 768
+@media (max-width:768px){
+   
+
+   // intro adaptive
+   .section__intro{
+      .intro__social{
+         display: none;
+      }
+      .intro__img{
+         .intro__info{
+            margin-top: 65px;
+            .info__title{
+               font-size: 50px;
+            }
+            .info__button{
+            margin-top: 30px;
+            padding: 15px;
+            font-size: 15px;
+            }
+         .info__calendar{
+            margin-top: 30px;
+            .calendar__date{
+            .date__chin{
+               .chin__title{
+                  font-size: 12px;
+               }
+               .chin__date{
+                  font-size: 40px;
+               }
+            }
+            .date__chout{
+
+               .chout__title{
+                  font-size: 12px;
+               }
+               .chout__date{
+                  font-size: 40px;
+               }
+            }
+            .date__guestnum{
+
+               .guestnum__title{
+                  font-size: 12px;
+               }
+               .guestnum__number{
+                  font-size: 40px;
+               }
+            }
+            .calendar__button{
+               font-size: 12px;
+               padding: 0 10px;
+            }
+            }
+         }
+      }
+      }
+   }
+   // end of intro adaptive
+}
+
+
+// 576
+@media (max-width:576px){
+   
+
+   // intro adaptive start
+   .section__intro{
+      .intro__social{
+         display: none;
+      
+      }
+      .intro__img{
+         .intro__info{
+            margin-top: 15px;
+            .info__title{
+               font-size: 40px;
+            }
+            .info__button{
+            padding: 10px 15px;
+            font-size: 12px;
+            margin-top: 50px;
+            }
+         .info__calendar{
+         margin-top: 0;
+            .calendar__date{
+               margin-top: 30px;
+            .date__chin{
+               padding: 25px 20px;
+               .chin__title{
+                  font-size: 12px;
+               }
+               .chin__date{
+                  font-size: 30px;
+               }
+
+            }
+            .date__chout{
+               padding: 25px 20px;
+               .chout__title{
+                  font-size: 12px;
+               }
+               .chout__date{
+                  font-size: 30px;
+               }
+            }
+            .date__guestnum{
+               padding: 25px 20px;
+               .guestnum__title{
+                  font-size: 12px;
+               }
+               .guestnum__number{
+                  font-size: 30px;
+               }
+            }
+            .calendar__button{
+               font-size: 12px;
+               padding: 10px 10px;
+            }
+            }
+         }
+      }
+      }
+   }
+// intro adaptive end
+   select{
+      font-size: 18px;
+   }
+
+}
+
+
+
+@media (max-width:480px){
+   
+
+   // intro adaptive start
+   .section__intro{
+      .intro__social{
+         display: none;
+      
+      }
+      .intro__img{
+         .intro__info{
+            margin-top: 15px;
+            .info__title{
+               font-size: 40px;
+            }
+            .info__button{
+            padding: 10px 15px;
+            font-size: 12px;
+            margin-top: 15px;
+            }
+         .info__calendar{
+         margin-top: -15px;
+            .calendar__date{
+               margin-top: 30px;
+            .date__chin{
+               padding: 25px 20px;
+               .chin__title{
+                  font-size: 12px;
+               }
+               .chin__date{
+                  font-size: 30px;
+               }
+
+            }
+            .date__chout{
+               padding: 25px 20px;
+               .chout__title{
+                  font-size: 12px;
+               }
+               .chout__date{
+                  font-size: 30px;
+               }
+            }
+            .date__guestnum{
+               padding: 25px 20px;
+               .guestnum__title{
+                  font-size: 12px;
+               }
+               .guestnum__number{
+                  font-size: 30px;
+               }
+            }
+            .calendar__button{
+               font-size: 12px;
+               padding: 10px 10px;
+            }
+            }
+         }
+      }
+      }
+   }
+// intro adaptive end
+   select{
+      font-size: 18px;
+   }
+
+}

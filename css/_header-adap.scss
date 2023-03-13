@@ -1,0 +1,47 @@
+// 1200
+@media (max-width:1200px){
+
+}
+// 1024
+@media (max-width:1024px){
+    // header adaptive start
+   .header__item:nth-child(3){
+      #s__input{
+         width: 150px;
+      }
+   }
+   // end of header adaptive
+
+
+}
+
+
+
+// 768
+@media (max-width:768px){
+   //   header adaptive   
+   .header__item{
+   .menu__btn>span{
+      top: 0px;
+      left: 0px;
+   }}
+   .novisib{
+      display: none;
+      opacity: 0;
+      }
+   // end of header adaptive
+}
+
+
+// 576
+@media (max-width:576px){
+   // header adaptive start
+   .header__item{
+      #go:checked ~ .menu__btn > span{
+         transform: translateX(320px);
+         }
+   }
+   // header adaptive end
+}
+
+

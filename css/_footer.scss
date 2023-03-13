@@ -1,0 +1,125 @@
+.footer{
+   display: flex;
+   flex-direction: column;
+   background-color: #454545;
+   color: #cfcfcf;
+   .footer__info{
+      display: flex;
+      justify-content: space-between;
+     
+      
+      padding: 100px 200px;
+      
+
+
+
+      // airbooking
+      .footer__airbooking{
+      max-width: 250px;
+      >div{
+         margin-bottom: 20px;
+      }
+      .airbooking__header{
+         font-size: 48px;
+         color: #c19b76;
+      }
+      // airbooking txt
+      
+         
+      
+      .airbooking__txt{
+      
+         font-size: 16px;
+      }
+     
+      // airbooking txt
+      .airbooking__adress{
+         display: flex;
+         flex-direction: row;
+         .adress__icon{
+            margin: 0 10px 0 0;
+         }
+         .adress__info{
+            display: flex;
+            flex-direction: column;
+            .adress__town{
+
+            }
+            .adress__state{
+               margin: 10px 0 0 0;
+            }
+         }
+      }
+   
+      .airbooking__tel{
+         display: flex;
+         margin-top: 10px;
+         flex-direction: row;
+         .tel__icon{
+            margin: 0 10px 0 0;
+         }
+         .tel__info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .tel__num1{
+
+            }
+            .tel__num2{
+               margin: 10px 0 0 0;
+            }
+         }
+      }
+      
+   }
+      .footer__links{
+         display: flex;
+         flex-direction: column;
+         
+         
+         font-size: 24px;
+         .link__header{
+         padding-top: 15px;
+         }
+         .link__part{
+            display: flex;
+            flex-direction: row;
+            line-height: 2;
+            margin-top: 15px;
+         
+            .part__left{
+
+            }
+            .part__right{
+               margin: 0 0 0 60px;
+            }
+         }
+
+
+      }
+      .footer__connect{
+         font-size: 24px;
+         font-weight: 700;
+         .connect__header{
+            padding-top: 15px;
+      }
+         
+      }
+      .connect__list{
+         display: flex;
+         justify-content: space-around;
+         margin-top: 50px;
+         .connect-list__icon{
+
+            img{
+            
+            }
+         }
+      }
+   }
+   .footer__under{
+      text-align: center;
+      color: #cfcfcf;
+      margin: 0 0 50px 0;
+   }
+}

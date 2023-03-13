@@ -1,0 +1,142 @@
+// 1200
+@media (max-width:1200px){
+   .section-rooms{
+
+
+      // header
+      // .rooms__header{
+   
+      // }
+      .slider__item{
+   
+         .slider-item__info{
+            
+            bottom: 10px;
+            left: 35px;
+            .slider-item__title{
+               font-size: 23px;
+            }
+            .slider-item__price{
+               margin-top: 10px;
+            }
+         }
+      }
+   }
+}
+// 1024
+@media (max-width:1024px){
+   .section-rooms{
+
+
+      // header
+      // .rooms__header{
+   
+      // }
+      .slider__item{
+   
+         .slider-item__info{
+   
+            bottom: 10px;
+            left: 45px;
+            // .slider-item__title{
+            // }
+            .slider-item__price{
+               margin-top: 10px;
+            }
+         }
+      }
+   }
+}
+
+
+
+// 768
+@media (max-width:768px){
+   .section-rooms{
+
+
+      // header
+      // .rooms__header{
+   
+      // }
+      .slider__item{
+   
+         .slider-item__info{
+   
+            bottom: 10px;
+            left: 40px;
+            .slider-item__title{
+               font-size: 14px;
+            }
+            .slider-item__price{
+               margin-top: 10px;
+               font-size: 14px;
+            }
+         }
+      }
+   }
+   
+}
+
+
+// 576
+@media (max-width:576px){
+
+   .section-rooms{
+
+
+      // header
+      // .rooms__header{
+   
+      // }
+      .slider__item{
+   
+         .slider-item__info{
+   
+            bottom: 10px;
+            left: 140px;
+            
+            .slider-item__title{
+               font-size: 30px;
+            }
+            .slider-item__price{
+               font-size: 20px;
+               margin-top: 50px;
+            }
+         }
+      }
+   }
+   
+}
+
+
+
+// 480
+@media (max-width:480px){
+
+   .section-rooms{
+
+
+      // header
+      .rooms__header{
+         font-size: 33px;
+      }
+      .slider__item{
+   
+         .slider-item__info{
+   
+            bottom: 10px;
+            left: 90px;
+            
+            .slider-item__title{
+               font-size: 30px;
+            }
+            .slider-item__price{
+               font-size: 20px;
+               margin-top: 50px;
+            }
+         }
+      }
+   }
+   
+}

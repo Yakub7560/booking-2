@@ -1,0 +1,42 @@
+
+.explorer{
+   display: flex;
+   background-color: #eff4f8;
+   position: relative;
+   padding: 50px 0;
+   .explorer__main-img{
+      
+      padding: 10px;
+      background-color: #ffffff;
+      
+      top: 70px;
+      left: 120px;
+      box-shadow: 15px 15px 15px #dce7ef;
+      img{
+      width: 860px;
+      height: 500px;
+      }
+   }
+   .explorer__info{
+      position: absolute;
+      right: 120px;
+      top: 160px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      max-width: 440px;
+      font-family: "Bodoni SvtyTwo SC ITC TT Book";
+      color: #686868;
+      padding: 50px;
+      .explorer-info__title{
+         font-size: 60px;
+         
+      }
+      .explorer-info__text{
+         margin-top: 20px;
+      }
+   }
+}
+
+
+

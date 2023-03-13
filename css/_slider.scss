@@ -1,0 +1,40 @@
+.slick-track{
+   display: flex;
+   
+
+}
+.slick-list{
+   overflow: hidden;
+}
+
+*{
+   box-sizing: border-box;
+
+}
+
+.section-rooms{
+   margin-left: -20px;
+}
+
+
+.room__slider{
+position: relative;
+div{
+   margin: 15px;
+}
+img{
+   width: 100%;
+   height: 100%;
+}
+
+}
+.room__slider .slick-arrow{
+   display: none;
+   
+}
+
+
+
+
+
+

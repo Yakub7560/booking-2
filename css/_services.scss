@@ -1,0 +1,66 @@
+.services{
+   display: flex;
+   color: #686868;
+   font-family: "Bodoni SvtyTwo SC ITC TT Book";
+   .services__title{
+      margin-top: 100px;
+      text-align: center;
+      font-size: 72px;
+      
+   
+   }
+   .service-item__list{
+      display: flex;
+      margin: 120px 0 150px 0;
+      justify-content: space-between;
+   .services__item{
+      display: flex;
+      flex-direction: column;
+      
+      text-align: center;
+      .service-item__icon{
+         display: flex;
+         align-items: end;
+         justify-content: center;
+         height: 60px;
+         
+      }
+      .service-item__name{
+         margin-top: 30px;
+         font-size: 30px;
+      }
+      .service-item__text{
+         margin-top: 30px;
+         font-size: 16px;
+         padding: 0 10px;
+      }
+
+   }
+   .services__item:nth-child(1){
+      .service-item__icon{       
+         img{
+            width: 45px;
+            height: 45px;
+         }
+      }
+   }
+   .services__item:nth-child(2){
+      .service-item__icon:nth-child(2){ 
+         img{
+            width: 45px;
+            height: 45px;
+         }
+      }
+   }
+   .services__item:nth-child(3){
+      .service-item__icon:nth-child(3){       
+         img{
+            width: 100px;
+            height: 30px;
+         }
+      }
+   }
+}
+}
+
+

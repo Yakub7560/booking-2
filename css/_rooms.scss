@@ -1,0 +1,43 @@
+.section-rooms{
+
+
+   // header
+   .rooms__header{
+      font-size: 72px;
+      text-align: center;
+      color: #686868;
+      margin: 30px 0 0 0;
+      font-family: "Bodoni SvtyTwo SC ITC TT Book";
+   }
+   .slider__item{
+      position: relative;
+      text-transform: uppercase;
+      .slider-item__info{
+         position: absolute;
+         display: flex;
+         flex-direction: column;
+         
+         text-align: center;
+         bottom: 10px;
+         left: 60px;
+         .slider-item__title{
+            background-color: rgb(209, 164, 112);
+            padding: 10px;
+            color: #ffffff;
+         }
+         .slider-item__price{
+            margin-top: 10px;
+            color: #ffffff;
+            font-size: 18px;
+         }
+      }
+   }
+}
+
+
+
+
+
+
+
+
